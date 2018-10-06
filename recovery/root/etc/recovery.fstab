@@ -1,0 +1,7 @@
+/dev/block/platform/jzmmc_v1.2.0/by-name/system	        /system		ext4     defaults	defaults
+/dev/block/platform/jzmmc_v1.2.0/by-name/data	        /data		ext4     defaults	defaults
+/dev/block/platform/jzmmc_v1.2.0/by-name/cache	        /cache		ext4     defaults	defaults
+/dev/block/platform/jzmmc_v1.2.0/by-name/misc	        /misc		emmc	 defaults	defaults
+/dev/block/platform/jzmmc_v1.2.0/by-name/boot	        /boot		emmc	 defaults	defaults
+/dev/block/platform/jzmmc_v1.2.0/by-name/recovery	/recovery	emmc	 defaults	defaults
+/dev/block/mmcblk0	                                /uboot          emmc	 defaults	defaults

@@ -1,0 +1,16 @@
+on early-init
+        start ueventd
+
+on fs
+        mount_all /fstab.watch
+
+on boot
+        ifup lo
+        hostname localhost
+        domainname localdomain
+
+        class_start default
+
+service ueventd /sbin/ueventd
+        critical
+        class_start default
