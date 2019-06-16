@@ -34,8 +34,10 @@ TARGET_VENDOR_DEVICE_NAME := huanghe
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=watch \
     PRODUCT_NAME=huanghe \
-    BUILD_FINGERPRINT=Huami/huangheUS/watch:5.1/LMY47D/18:user/release-keys  # use Huami/huanghe/watch:5.1/LMY47D/67:user/release-keys  for the chinese one
+    BUILD_FINGERPRINT=Huami/huangheUS/watch:5.1/LMY47D/18:user/release-keys
+# use Huami/huanghe/watch:5.1/LMY47D/67:user/release-keys  for the chinese one
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    ro.build.huami.model=A1612 \ # use A1602 for the chinese one
+    ro.build.huami.model=A1612 \
     ro.build.huami.version=00000003
+ # use A1602 for the chinese one
